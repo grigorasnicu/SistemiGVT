@@ -10,6 +10,7 @@ body{
   background: url("greyzz.png");
 }
 
+/* ------ NAVBAR ----- */
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -18,7 +19,6 @@ nav .brand-logo {
 
 a#logo-container img {
   vertical-align: text-top;
-  height:
 }
 
 p {
@@ -29,6 +29,9 @@ p {
   color: #90a4ae;
 }
 
+
+/* ----- MAIN SECTION ------ */
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -36,17 +39,15 @@ p {
   color: rgba(255,255,255,.9);
 }
 
-div#index-banner h1.header  {
+div#index-banner div.container-fluid  {
   background-color: rgba(0,0,0,0.4);
   border-radius: 7px;
-  font-size: 32px;
+  font-size: 32px ;
+  color: white;
 }
 
-div#index-banner h5.header {
-  background-color: rgba(0,0,0,0.4);
-  border-radius: 7px;
-  font-weight: 400;
-  font-size: 20px;
+h1.header.center {
+  font-size: 32px;
 }
 
 div.row.icon_section  div.col.s12.m4:hoover {
@@ -56,6 +57,10 @@ div.row.icon_section  div.col.s12.m4:hoover {
   .parallax-container .section {
     width: 100%;
   }
+
+.parallax-container div.container-fluid {
+  margin-top: 50px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -88,10 +93,7 @@ div.fixed-action-btn.vertical a {
   background-color: #3F51B5;
 }
 
-footer.page-footer {
-  border-top: 5px solid white;
-  background-color: #03A9F4;
-}
+
 
 div#chi_siamo {
 
@@ -124,3 +126,20 @@ div.footer-copyright div.container {
   font-weight: 300;
   margin-top: 13px;
 }
+
+footer.page-footer {
+  border-top: 5px solid white;
+  background-color: #4527A0;
+}
+
+
+/* ----- MEDIA QUERYS -----*/
+
+@media screen and (min-width: 840px) {
+  h1.header.center {
+    font-size: 50px;
+  }
+  
+}
+
+
