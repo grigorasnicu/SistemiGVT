@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+  background: url("greyzz.png");
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  font-family: 'Righteous', cursive;
+}
+
+a#logo-container img {
+  vertical-align: text-top;
+  height:
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #90a4ae;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+div#index-banner h1.header  {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 7px;
+  font-size: 32px;
+}
+
+div#index-banner h5.header {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+div.row.icon_section  div.col.s12.m4:hoover {
+
+}
+
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+div.fixed-action-btn.vertical a {
+  background-color: #3F51B5;
+}
+
+footer.page-footer {
+  border-top: 5px solid white;
+  background-color: #03A9F4;
+}
+
+div#chi_siamo {
+
+}
+
+#map {
+  height: 250px;
+  width: 100%;
+}
+
+div#info_legali p {
+  border-left: 1px solid white;
+  padding-left: 5px;
+}
+
+div.footer-copyright div img {
+  width: 32px;
+}
+
+/* ---- Footer ----  */
+
+div.footer-copyright {
+  background-color: white !important;
+
+}
+div.footer-copyright div.container {
+  color: #2962FF;
+  font-family:'Poiret One', cursive;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 13px;
+}
