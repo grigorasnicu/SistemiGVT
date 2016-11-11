@@ -2124,11 +2124,11 @@
 }
 
 .white {
-  background-color: #FFFFFF !important;
+  background-color: #FFFFFF ;
 }
 
 .white-text {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
 }
 
 .transparent {
@@ -7626,7 +7626,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4527A0;
+  background-color: #212121;
 }
 
 .carousel {

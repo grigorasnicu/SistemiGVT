@@ -5,11 +5,12 @@
  *
  * Made By MaterializeCSS.com
  */
-@import url('https://fonts.googleapis.com/css?family=Lato')
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 /* ----- General ------*/
 html {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 body{
   background: url("geometry.png");
@@ -22,6 +23,10 @@ div.divider {
 
 
 /* ------ NAVBAR ----- */
+nav.white.z-depth-1 {
+  background-color: ghostwhite;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -37,7 +42,7 @@ p {
 }
 
 .button-collapse {
-  color: #4527A0;
+  color: #212121;
 }
 
 
@@ -107,7 +112,7 @@ footer.page-footer {
 }
 
 div.fixed-action-btn.vertical a {
-  background-color: #3F51B5;
+  background-color: #ff4a48;
 }
 
 
@@ -142,7 +147,7 @@ div#galeria_foto ul li div.caption {
 /* Last Parallax */
 
 #last_parallax div.row.center {
-  background-color: rgba(69,39,160,0.3);
+  background-color: rgba(33,33,33,0.3);
   border-radius: 7px;
 
   color: white;
@@ -167,7 +172,7 @@ div.footer-copyright div.container {
 
 footer.page-footer {
   border-top: 5px solid white;
-  background-color: #4527A0;
+  background-color: #212121;
 }
 
 
