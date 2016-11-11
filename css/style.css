@@ -5,10 +5,21 @@
  *
  * Made By MaterializeCSS.com
  */
+@import url('https://fonts.googleapis.com/css?family=Lato')
 
-body{
-  background: url("greyzz.png");
+/* ----- General ------*/
+html {
+  font-family: 'Lato', sans-serif;
 }
+body{
+  background: url("geometry.png");
+}
+div.divider {
+  background-color: #4527A;
+}
+
+
+
 
 /* ------ NAVBAR ----- */
 nav ul a,
@@ -26,7 +37,7 @@ p {
 }
 
 .button-collapse {
-  color: #90a4ae;
+  color: #4527A0;
 }
 
 
@@ -81,6 +92,12 @@ div.row.icon_section  div.col.s12.m4:hoover {
 .icon-block {
   padding: 0 15px;
 }
+
+.icon-block img {
+  height: 70px;
+
+}
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -111,6 +128,27 @@ div#info_legali p {
 
 div.footer-copyright div img {
   width: 32px;
+}
+
+/* ----- Galeria Foto ------*/
+
+div#galeria_foto ul li div.caption {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 7px;
+  font-size: 32px ;
+  color: white;
+}
+
+/* Last Parallax */
+
+#last_parallax div.row.center {
+  background-color: rgba(69,39,160,0.3);
+  border-radius: 7px;
+
+  color: white;
+}
+#last_parallax div.row.center h5 {
+  font-size: 45px;
 }
 
 /* ---- Footer ----  */
