@@ -6,14 +6,16 @@
 
   }); // end of document ready
 
-  //Carousel
-
+  //Slider ============================
   $('.slider').slider({full_width: true});
+
+
+
 
 })(jQuery); // end of jQuery name space
 
 
-// Map
+// Map ================================
 
 function initMap() {
   var uluru = {lat: 45.422016, lng: 11.890598};

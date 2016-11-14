@@ -32,6 +32,9 @@ nav .brand-logo {
   color: #444;
   font-family: 'Righteous', cursive;
 }
+#logo-container img {
+  width: 40px;
+}
 
 a#logo-container img {
   vertical-align: text-top;
@@ -154,6 +157,12 @@ div#galeria_foto ul li div.caption {
 }
 #last_parallax div.row.center h5 {
   font-size: 45px;
+}
+
+/* Button */
+
+#call_button {
+  display: none;
 }
 
 /* ---- Footer ----  */
