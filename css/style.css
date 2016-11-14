@@ -24,7 +24,7 @@ div.divider {
 
 /* ------ NAVBAR ----- */
 nav.white.z-depth-1 {
-  background-color: ghostwhite;
+  background-color: snow;
 }
 
 nav ul a,
@@ -136,6 +136,15 @@ div#info_legali p {
 
 div.footer-copyright div img {
   width: 32px;
+}
+/*----- Contact ------*/
+
+#contact_gvt li {
+  font-size: 40px;
+}
+
+#contact_gvt li img {
+  vertical-align: middle;
 }
 
 /* ----- Galeria Foto ------*/
