@@ -45,7 +45,7 @@ p {
 }
 
 .button-collapse {
-  color: #212121;
+  color: #a1a1a1;
 }
 
 
@@ -69,7 +69,7 @@ h1.header.center {
   font-size: 32px;
 }
 
-div.row.icon_section  div.col.s12.m4:hoover {
+div.row.icon_section  div.col.s12.m4:hover {
 
 }
 
@@ -129,22 +129,24 @@ div#chi_siamo {
   width: 100%;
 }
 
-div#info_legali p {
-  border-left: 1px solid white;
-  padding-left: 5px;
-}
 
-div.footer-copyright div img {
-  width: 32px;
-}
 /*----- Contact ------*/
 
 #contact_gvt li {
-  font-size: 40px;
+  font-size: ;
 }
 
 #contact_gvt li img {
   vertical-align: middle;
+  float: left;
+  margin-right: 5px;
+}
+p.contact_title {
+  font-size: 32px;
+}
+
+li.email h4{
+  font-size: 30px;
 }
 
 /* ----- Galeria Foto ------*/
@@ -176,16 +178,30 @@ div#galeria_foto ul li div.caption {
 
 /* ---- Footer ----  */
 
-div.footer-copyright {
-  background-color: white !important;
 
+footer {
+  background-image: url("diagmonds.png");
 }
-div.footer-copyright div.container {
-  color: #2962FF;
+
+div#info_legali p {
+  border-left: 1px solid white;
+  padding-left: 5px;
+}
+
+div.footer-copyright img {
+  width: 32px;
+}
+
+div.footer-copyright  {
+  color: #ffffff;
   font-family:'Poiret One', cursive;
   font-size: 20px;
   font-weight: 300;
   margin-top: 13px;
+}
+
+div.footer_copy.row {
+  margin: 0;
 }
 
 footer.page-footer {

@@ -11,4 +11,7 @@ $(document).ready(function(){
     }
     setTimeout(show_button, 3000);
 
+    // Scrollspy
+    $('.scrollspy').scrollSpy();
+
 });// end of document ready

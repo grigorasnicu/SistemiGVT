@@ -3432,8 +3432,8 @@ input[type=range] + .thumb {
 }
 
 .section {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top:;
+  padding-bottom:;
 }
 
 .section.no-pad {
@@ -6794,13 +6794,13 @@ input[type=range]:focus::-ms-fill-upper {
 .table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 19px;
-  border-left: 1px solid #ea4a4f;
+  border-bottom: 1px solid #ea4a4f;
 }
 
 .table-of-contents a.active {
   font-weight: 500;
   padding-left: 18px;
-  border-left: 2px solid #ea4a4f;
+  border-bottom: 2px solid #444444;
 }
 
 .side-nav {

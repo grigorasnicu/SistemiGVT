@@ -4,13 +4,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>Sistemi GVT - Montaggi scaffalature e soppalchi</title>
-    <meta name="theme-color" content="#fafafa" />
+    <meta name="theme-color" content="#444" />
     <link rel="shortcut icon" href="img/logo.png" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <script src="https://use.fontawesome.com/7c9678371e.js"></script>
+
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,11 +21,11 @@
 <body>
 
     <!-- ====== NAV ======== -->
-    <header id="index_header" class="navbar-fixed">
+    <header id="" class="navbar-fixed">
         <nav class="white z-depth-1" role="navigation">
             <div class="nav-wrapper container">
                 <a  id="logo-container" href="#" class="brand-logo "><img class="" src="img/logo.svg"> Sistemi GVT</a>
-                <ul class="right hide-on-med-and-down">
+                <ul class="section table-of-contents right hide-on-med-and-down">
                     <li><a href="#index_header">A casa</a></li>
                     <li><a href="#chi_siamo">Chi siamo</a></li>
                     <li><a href="#galeria_foto">Galleria Foto</a></li>
@@ -43,7 +43,7 @@
     <!-- ===== MAIN ===== -->
     <main>
         <!-- First Parallax Section -->
-        <div id="index-banner" class="parallax-container">
+        <div id="index-banner" class="section scrollspy parallax-container">
              <div class="section no-pad-bot ">
                 <div class="container-fluid">
                     <br><br>
@@ -59,7 +59,7 @@
         </div>
 
         <!-- About Us Section -->
-        <div id="chi_siamo" class="container">
+        <div id="chi_siamo" class="section scrollspy container">
             <div class="section">
 
                 <!--   Icon Section   -->
@@ -101,7 +101,7 @@
         </div>
 
         <!-- Galeria Foto -->
-        <div id="galeria_foto" class="slider">
+        <div id="galeria_foto" class="section scrollspy slider">
             <ul class="slides">
                 <li>
                     <img src="img/marangoni/1.jpg"> <!-- random image -->
@@ -135,20 +135,21 @@
         </div>
 
         <!-- Contact -->
-        <div id="contattaci" class="container">
+        <div id="contattaci" class="section scrollspy container">
             <div class="section">
             <div class="row">
 
                 <div class="col s12 m12 l12 center">
                     <h4>Contattaci</h4>
                     <div class="divider"></div>
-                    <br>
                 </div>
-                 <div class="col s12 m6 l6 center">
-                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                 <div class="col s12 m6 l6">
+                    <h3><i class="mdi-content-send"></i></h3>
+                     <p class="contact_title">Potete contattarci al telefono o l'indirizzo email qui sotto</p>
                      <ul id="contact_gvt">
-                         <li><img class="" src="img/phone-receiver.svg">00393456789</li>
-                         <li><img class="" src="img/close-envelope.svg">hasodfiuh@gmail.com</li>
+                         <li><img class="" src="img/phone-receiver.svg"><h4>00393456789</h4></li>
+                         <li class="email"><img class="" src="img/close-envelope.svg"><h4>sistemigvt@gmail.com</h4></li>
+                         <li class=""><i class="material-icons">location_on</i><h4>sistemigvt@gmail.com</h4></li>
                      </ul>
                  </div>
                 <div class="col s12 m6 l6 center">
@@ -189,48 +190,54 @@
     <!-- ======= FOOTER ====== -->
     <footer class="page-footer">
         <div class="container">
-      <div class="row">
-             <div id="info_legali" class="col l6 s12" >
-                  <h5 class="white-text">Informazioni legali</h5>
-                  <p class="grey-text text-lighten-4">SISTEMI GVT di Mustache Ionel<br>
-                     Sede Legale.Via Altichieri da Zevio 16/a 35123 Padova <br>
-                     Partita I.V.A: 04992980286<br>
-                     Cod.Fiscale: MSTNLI68M20Z129L
-                  </p>
-             </div>
-              <div class="col l3 s12">
-            <h5 class="white-text">Settings</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
-            </ul>
-          </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Connect</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
-            </ul>
-          </div>
-        </div>
-        </div>
-        <div class="footer-copyright z-depth-2">
-            <div class="container">
-                <img src="img/kodecreative.svg">
-                Made by <a class="" href="http://materializecss.com">kode.creative</a>
+            <div class="row">
+                 <div id="info_legali" class="col l6 s12" >
+                      <h5 class="white-text">Informazioni legali</h5>
+                      <p class="grey-text text-lighten-4">SISTEMI GVT di Mustache Ionel<br>
+                         Sede Legale.Via Altichieri da Zevio 16/a 35123 Padova <br>
+                         Partita I.V.A: 04992980286<br>
+                         Cod.Fiscale: MSTNLI68M20Z129L
+                      </p>
+                 </div>
+                  <div class="col l3 s12">
+                     <h5 class="white-text">Settings</h5>
+                     <ul>
+                       <li><a class="white-text" href="#!">Link 1</a></li>
+                       <li><a class="white-text" href="#!">Link 2</a></li>
+                       <li><a class="white-text" href="#!">Link 3</a></li>
+                       <li><a class="white-text" href="#!">Link 4</a></li>
+                      </ul>
+                 </div>
+                 <div class="col l3 s12">
+                   <h5 class="white-text">Connect</h5>
+                   <ul>
+                     <li><a class="white-text" href="#!">Link 1</a></li>
+                     <li><a class="white-text" href="#!">Link 2</a></li>
+                     <li><a class="white-text" href="#!">Link 3</a></li>
+                     <li><a class="white-text" href="#!">Link 4</a></li>
+                   </ul>
+                 </div>
             </div>
-            
         </div>
+        <div class="divider"></div>
+
+        <div class="footer_copy row">
+            <div class="container">
+                 <div class="col s12 m12 l12">
+                     <div class="footer-copyright z-depth-2">
+                              <img src="img/kodecreative.svg">
+                         Made by <a class="" href="http://materializecss.com">kode.creative</a>
+                     </div>
+                 </div>
+            </div>
+        </div>
+
     </footer>
 
 
     <!--  Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
     <script src="js/custom.js"></script>
