@@ -145,22 +145,60 @@
                 </div>
                  <div class="col s12 m6 l6">
                     <h3><i class="mdi-content-send"></i></h3>
-                     <p class="contact_title">Potete contattarci al telefono o l'indirizzo email qui sotto</p>
+                     <p class="contact_title">Potete contattarci al telefono o l'indirizzo email qui sotto:</p>
                      <ul id="contact_gvt">
                          <li><img class="" src="img/phone-receiver.svg"><h4>00393456789</h4></li>
                          <li class="email"><img class="" src="img/close-envelope.svg"><h4>sistemigvt@gmail.com</h4></li>
-                         <li class=""><i class="material-icons">location_on</i><h4>sistemigvt@gmail.com</h4></li>
+                         <li class=""><a class="modal-trigger waves-effect waves-light " href="#location_modal"><img class="" src="img/location.svg"><h4>Vedi indirizzo</h4></a></li>
+
+                         <!-- Location Modal -->
+                         <div id="location_modal" class="modal modal-fixed-footer">
+                             <div class="modal-content">
+                                 <h4>Via Altichieri da Zevio 16/a
+                                     , Padova</h4>
+                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.381574735399!2d11.888420014830427!3d45.42180894429334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eda6236a1e397%3A0x56da79c617a1addc!2sVia+Altichieri+da+Zevio%2C+16%2C+35132+Padova+PD%2C+Italia!5e0!3m2!1sro!2sro!4v1479655304369" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                             </div>
+                             <div class="modal-footer">
+                                 <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+                             </div>
+                         </div>
+
                      </ul>
                  </div>
-                <div class="col s12 m6 l6 center">
+                <div class="col s12 m6 l6 ">
+                    <p>Oppure si può lasciare un messaggio e vi contatteremo:</p>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="icon_prefix" type="text" class="validate">
+                                    <label for="icon_prefix">Nome</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">phone</i>
+                                    <input id="icon_telephone" type="tel" class="validate">
+                                    <label for="icon_telephone">Telefono</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                                </div>
+                                <form class="col s12">
 
-                    <div class="card small">
-                        <div id="map"></div>
-                        <div class="card-content">
-                           <h6> Via Altichieri da Zevio 16/a
-                           , Padova </h6>
-                        </div>
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">mode_edit</i>
+                                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                            <label for="icon_prefix2">Messaggio</label>
+                                        </div>
+
+                                </form>
+                            </div>
+                        </form>
                     </div>
+
+
 
                 </div>
             </div>
