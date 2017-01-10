@@ -5,10 +5,12 @@
  *
  * Made By MaterializeCSS.com
  */
+
+/* ####### Fonts ###### */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-/* ----- General ------*/
+/* ###### General ####### */
 html {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -26,8 +28,6 @@ iframe, object, embed {
 div.divider {
   background-color: #4527A;
 }
-
-
 
 
 /* ------ NAVBAR ----- */
@@ -59,6 +59,8 @@ p {
 
 /* ----- MAIN SECTION ------ */
 
+
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -67,8 +69,8 @@ p {
 }
 
 div#index-banner div.container-fluid  {
-  background-color: rgba(0,0,0,0.4);
-  border-radius: 7px;
+  background-color: rgba(0,0,0,0.6);
+  /*border-radius: 7px;*/
   font-size: 32px ;
   color: white;
 }
@@ -182,7 +184,7 @@ div#galeria_foto ul li div.caption {
 /* Button */
 
 #call_button {
-  display: none;
+  /*display: none;*/
 }
 
 /* ---- Footer ----  */
@@ -223,8 +225,14 @@ footer.page-footer {
 
 @media screen and (min-width: 840px) {
   h1.header.center {
-    font-size: 50px;
+    font-size: 70px;
   }
+
+  div#index-banner div.container-fluid h5{
+    font-size: 40px;
+  }
+
+
   
 }
 

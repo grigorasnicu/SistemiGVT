@@ -4187,7 +4187,8 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+  font-size: 18px;
 }
 
 nav ul.left {
@@ -6792,15 +6793,15 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .table-of-contents a:hover {
-  color: #a8a8a8;
+
   padding-left: 19px;
-  border-bottom: 1px solid #ea4a4f;
+
 }
 
 .table-of-contents a.active {
   font-weight: 500;
   padding-left: 18px;
-  border-bottom: 2px solid #444444;
+  color: black;
 }
 
 .side-nav {
@@ -6860,7 +6861,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav a:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  /*background-color: rgba(0, 0, 0, 0.05);*/
 }
 
 .side-nav a.btn, .side-nav a.btn-large, .side-nav a.btn-large, .side-nav a.btn-flat, .side-nav a.btn-floating {
