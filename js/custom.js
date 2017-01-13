@@ -28,6 +28,13 @@ $(document).ready(function(){
     });
     $('.modal-clos').closeModal();
 
+    // #### SIDE NAV BUTTON #####
+
+    $( ".side-nav-button" ).click(function() {
+        $( "#nav-mobile" ).animate({"transform":"translateX(-100px)"});
+
+    });
+
 
 
 });// end of document ready
